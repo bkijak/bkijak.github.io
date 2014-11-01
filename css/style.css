@@ -150,7 +150,7 @@ body {
 	width: 100%;
 	background-color: #2E2E2E;
 	height: 60px;
-	clear: clear both;
+	clear: both;
 }
 
 .footer-text {
@@ -192,4 +192,16 @@ body {
 
 img {
 	width:100%;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.title1 {
+	margin-top: 0px;
+}
+
+.hr1 {
+	width: 1280px;
 }
