@@ -143,6 +143,7 @@ body {
 	font-size: 20px;
 }
 
+
 .footer {
 	text-align:center;
 	position: relative;
@@ -176,6 +177,7 @@ body {
 	float: left;
 	text-align: center;
 	font-style: italic;
+	margin-bottom: 20px;
 }
 
 .img-container img {
@@ -266,6 +268,11 @@ ul {
 
 .racket-list {
 	margin-top: 60px;
+}
+
+.arrow {
+	font-weight: bold;
+	padding-right: 10px;
 }
 
 /**
