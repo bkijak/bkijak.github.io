@@ -180,7 +180,7 @@ body {
 	margin-bottom: 20px;
 }
 
-.img-container img {
+.img-container img, .zumba-img img, .yoga-img img, .box-img img, .insanity-img img {
 	box-shadow: 0px 0px 15px #161616;
 }
 
@@ -223,7 +223,7 @@ ul {
 	font-size: 20px;
 	color: #2D2D2D;
 	font-weight: normal;
-	padding: 0;
+	padding: 0; 
 }
 
 .cardio-list ul li, .weight-list ul li, .racket-list ul li, .ball-list ul li, .swim-list ul li {
@@ -297,6 +297,31 @@ ul {
 	transition-property: background;
 	transition-duration: .6s;
 }
+
+.class-title {
+	text-align: center;
+	color: #BA1919;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+.zumba-content, .yoga-content, .box-content, .insanity-content {
+	text-align: center;
+}
+
+.zumba-text, .yoga-text, .box-text, .insanity-text {
+	margin: 20px auto;
+	width: 1000px;
+	color: #2D2D2D;
+
+}
+
+.zumba-img, .yoga-img, .box-img, .insanity-img {
+	width: 30%;
+	margin: 0 auto;
+}
+
 
 /**
  * For modern browsers
