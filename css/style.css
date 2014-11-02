@@ -197,14 +197,14 @@ ul {
 	list-style-type: square;
 }
 
-.title1, .intro, .title2 {
+.list-title, .intro, .list-title2 {
 	text-align: center;
 	color: #BA1919;
 	font-weight: bold;
 	font-size: 20px;
 }
 
-.title1 {
+.list-title {
 	margin-top: 0;
 	padding-right: 100px;
 }
@@ -213,7 +213,7 @@ ul {
 	width: 1280px;
 }
 
-.cardio-list {
+.cardio-list, .racket-list, .swim-list {
 	width: 35%;
 	float: left;
 	margin-top: 25px;
@@ -224,18 +224,18 @@ ul {
 	padding: 0;
 }
 
-.cardio-list, .weight-list ul li {
+.cardio-list ul li, .weight-list ul li, .racket-list ul li, .ball-list ul li, .swim-list ul li {
 	list-style-position: inside;
 }
 
-.cardio-imgs {
+.cardio-imgs, .racket-imgs, .swim-imgs {
 	width: 30%;
 	float: right;
 	margin-right: 150px;
 	margin-top: 5px;
 }
 
-.cardio-imgs img, .weight-imgs img {
+.cardio-imgs img, .weight-imgs img, .racket-imgs img, .ball-imgs img, .swim-imgs img{
 	display: inline-block;
 	width: 48%;
 	margin: 0px 2px;
@@ -243,11 +243,11 @@ ul {
 	box-shadow: 0px 0px 5px #161616;
 }
 
-.title2{
+.list-title2{
 	margin-right: 30px;
 }
 
-.weight-list {
+.weight-list, .ball-list {
 	width: 35%;
 	float: right;
 	margin-top: 25px;
@@ -257,11 +257,15 @@ ul {
 	font-weight: normal;
 }
 
-.weight-imgs {
+.weight-imgs, .ball-imgs {
 	width: 30%;
 	float: left;
 	margin-top: 10px;
 	margin-left: 150px; 
+}
+
+.racket-list {
+	margin-top: 60px;
 }
 
 /**
