@@ -275,6 +275,29 @@ ul {
 	padding-right: 10px;
 }
 
+.button-container {
+	text-align: center;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.back-to-top {
+	background-color: #BA1919;
+	margin: 10px auto;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.back-to-top:hover {
+	background-color: #FF4D4D;
+	color: white;
+	transition-property: background;
+	transition-duration: .6s;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
