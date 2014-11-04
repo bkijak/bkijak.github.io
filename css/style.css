@@ -155,6 +155,7 @@ body {
 .footer-text {
 	color:white;
 	padding: 15px;
+	font-size: 14px;
 }
 
 .text-container {
@@ -164,7 +165,7 @@ body {
 	margin-top: 40px;
 }
 
-.content-text {
+.content-text, .content {
 	font-size: 20px;
 	color: #2D2D2D;
 	font-weight: normal;
@@ -180,7 +181,7 @@ body {
 	margin-bottom: 20px;
 }
 
-.img-container img, .zumba-img img, .yoga-img img, .box-img img, .insanity-img img {
+.img-container img, .zumba-img img, .yoga-img img, .box-img img, .insanity-img img, .boot-img img {
 	box-shadow: 0px 0px 15px #161616;
 }
 
@@ -237,7 +238,7 @@ ul {
 	margin-top: 5px;
 }
 
-.cardio-imgs img, .weight-imgs img, .racket-imgs img, .ball-imgs img, .swim-imgs img{
+.cardio-imgs img, .weight-imgs img, .racket-imgs img, .ball-imgs img, .swim-imgs img {
 	display: inline-block;
 	width: 48%;
 	margin: 0px 2px;
@@ -298,7 +299,7 @@ ul {
 	transition-duration: .6s;
 }
 
-.class-title {
+.class-title,.restroom-title, .cafe-title, .massage-title, .sauna-title, .membership-title, .about-title {
 	text-align: center;
 	color: #BA1919;
 	font-weight: bold;
@@ -306,32 +307,182 @@ ul {
 	margin-bottom: 0px;
 }
 
-.zumba-content, .yoga-content, .box-content, .insanity-content {
+.zumba-content, .yoga-content, .box-content, .insanity-content, .boot-content {
 	text-align: center;
 }
 
-.zumba-text, .yoga-text, .box-text, .insanity-text {
+.zumba-text, .yoga-text, .box-text, .insanity-text, .boot-text {
 	margin: 20px auto;
 	width: 1000px;
 	color: #2D2D2D;
 
 }
 
-.zumba-img, .yoga-img, .box-img, .insanity-img {
+.zumba-img, .yoga-img, .box-img, .insanity-img, .boot-img {
 	width: 30%;
 	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.restroom-content, .massage-content {
+	width: 46%;
+	float: left;
+	margin: 30px 0px 0px 30px;
+	text-align: center;
+}
+
+.cafe-content {
+	width: 46%;
+	float: right;
+	margin: 10px 30px 0px 0px;
+	text-align: center;
+}
+
+.sauna-content {
+	width: 46%;
+	float: right;
+	margin: 30px 30px 0px 0px;
+	text-align: center;
+}	
+	
+.cafe-imgs {
+	width: 100%;
+	margin: 0;
+	float: right;
+	padding: 0;
+	text-align: center;
+}
+
+.cafe-imgs img {
+	width: 49.5%;
+	margin: 0;
+	padding: 0;
+}
+
+.sauna-imgs {
+	width: 100%;
+	margin: 0;
+	float: right;
+	padding: 0;
+	text-align: center;
+}
+
+.sauna-imgs img {
+	width: 49.5%;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.restroom-title {
+	margin-top: 10px;
+}
+
+.massage-content, .sauna-content {
+	margin-top: 50px;
+}
+
+.memb-link {
+	text-decoration: none;
+	color: #00a1f1;
+}
+
+.memb-link:hover {
+	color: #36465d;
+}
+
+.membership-containers {
+	width: 90%;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.year, .month {
+	width:49%;
+	text-align: center;
+	float: left;
+	margin-top: 30px;	
+}
+
+.details, .half {
+	width:49%;
+	text-align: center;
+	float: right;
+	margin-top: 30px;
+}
+
+.adult {
+	color: #5b9d7f;
+	font-weight: bold;
+}
+
+.elder {
+	color: #468499;
+	font-weight: bold;
+}
+
+.student {
+	color: #ff6666;
+	font-weight: bold;
+}
+
+.family {
+	color: #997560;
+	font-weight: bold;
+}
+
+.team-img {
+	width: 40%;
+	float: left;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+
+.team-img img {
+	box-shadow: 0px 0px 10px #161616;
+}
+
+.contact {
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.about-text {
+	float: left;
+	width: 80%;
+	margin: 0 auto;
+	margin-left: 120px;
+	margin-top: 30px;
+	text-align: center;
 }
 
 
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
+#owner-address {
+	margin-left: 30px;
+}
+
+.about-title {
+	margin-left: 30px;
+	text-align: left;
+}
+
+/** 
+ PLEASE READ
+ The source of the content below: http://nicolasgallagher.com/micro-clearfix-hack/ I have researched this content 
+ looking at secondary information sources such as the world wide web. This fix makes it so that content within the
+ website which has an attribute of float does not get ignored by other content. I have used this fix because it is 
+ much more efficient and less time consuming while writing in CSS language.
+  
+ For modern browsers
+ 1. The space content is one way to avoid an Opera bug when the
+ contenteditable attribute is included anywhere else in the document.
+ Otherwise it causes space to appear at the top and bottom of elements
+ that are clearfixed.
+ 2. The use of `table` rather than `block` is only necessary if using
+ `:before` to contain the top-margins of child elements.
  */
+
 .cf:before,
 .cf:after {
     content: " "; /* 1 */
@@ -340,12 +491,4 @@ ul {
 
 .cf:after {
     clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
 }
